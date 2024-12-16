@@ -27,15 +27,17 @@ Config.enableAnnouncements = true;
  * only works if enableAnnouncements = true
  */
 Config.announceMessages = [
-  "Enjoy your stay!",
-  "This loading screen is made by Exsite."
+  "Добро Пожаловать :D",
+  "У каждого пропа есть своё здоровье, и вашу базу можно легко взорвать!",
+  "Зайдите в наш Discord канал!",
+  "Чтобы ваш дом считался базой, он должен иметь спальный мешок."
 ];
 
 /**
  * How many miliseconds for each announcement?
  * only works if enableAnnouncements = true
  */
-Config.announcementLength = 3000;
+Config.announcementLength = 4000;
 
 /**
  * Image Filename

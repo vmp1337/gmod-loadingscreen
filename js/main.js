@@ -108,10 +108,10 @@ function loadAll() {
 
   // first time loading if DownloadingFile isn't called after some time
   setTimeout(function() {
-    debug("Checking if first time loading.. " + downloadingFileCalled);
+    debug("Проверяем, заходилы ли вы ранее.. " + downloadingFileCalled);
     if (downloadingFileCalled) {
       announce(
-        "This is your first time joining this server! - Please wait for the files to download...",
+        "Вы здесь в первый раз, подождите скачки всех аддонов...",
         true
       );
     }
